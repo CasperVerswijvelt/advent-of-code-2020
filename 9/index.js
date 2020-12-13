@@ -1,5 +1,4 @@
 const fs = require("fs");
-const { parse } = require("path");
 
 const text = fs.readFileSync(process.argv[2]).toString();
 const lines = text.split("\n");
